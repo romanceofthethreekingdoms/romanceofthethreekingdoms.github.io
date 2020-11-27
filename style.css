@@ -9,13 +9,19 @@ h1, h2 {
   text-align: center;
 }
 
-h6 { font-size: 0.8rem; }
+h6 {
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
 
 a,
 a:hover {
   color: #000;
 }
 
+.highlight-wei { background-color: pink; }
+.highlight-shu { background-color: cornflowerblue; }
+.highlight-wu { background-color: sandybrown; }
 .highlight-yellow { background-color: yellow; }
 
 /* General: Margins */
@@ -86,6 +92,8 @@ table {
   table td:nth-child(2) {
     white-space: nowrap;
   }
+
+  table td a { text-decoration: underline;}
 
 
 /* Top Link */
